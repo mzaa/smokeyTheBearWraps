@@ -44,12 +44,13 @@ img {
 	/*background-color: #000;*/
 }
 #opener .mainIMG {
-	width: 74.75%;
+	width: 75%;
 	float: left;
 }
 #opener .Side {
-	width: 25.25%;
+	width: 25%;
 	float: left;
+	background-color: #000;
 }
 
 
@@ -58,7 +59,7 @@ img {
 | Navigation
 ---------------*/
 
-nav { float: left; width: 100%; min-height: 30%; background-color: #fff;}
+nav { float: left; width: 100%; min-height: 50px; background-color: #fff;}
 
 nav ul {
 	width: 100%;
@@ -87,9 +88,17 @@ nav a {
 	text-decoration: none;
 }
 
-nav { float: left; width: 100%; min-height: 30%;}
 nav li { text-align: center;}
 
+.pinnedNav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	/*height: 50px;*/
+
+	z-index: 10000;
+}
 
 /*---------------
 | Footer
@@ -110,9 +119,9 @@ footer {
 }
 
 .copy {
-	float: right;
+	float: left;
 	/*padding-top: 70px;*/
-	/*padding-left: 80%;*/
+	padding-left: 89%;
 	font-size: .7em;
 }
 
@@ -123,8 +132,8 @@ footer {
 ---------------*/
 
 #featured {
-	width: 80%;
-	margin-left: 8%;
+	width: 60%;
+	margin-left: 18%;
 	padding-top: 20px;
 
 }
@@ -133,13 +142,14 @@ footer {
 	text-align: center;
 	width: 25%;
 	height: auto;
-	margin-left: 40%;
+	margin-left: 41.1%;
 	margin-top: 8%;
 	margin-bottom: 2%;
 }
 
 .bar h1 {
 	color: #fff;
+	font-size: 1.4em;
 }
 
 h3 {
