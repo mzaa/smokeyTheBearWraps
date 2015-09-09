@@ -1,0 +1,160 @@
+body {
+	background-color: #f3f3f3;
+}
+
+
+#container-fluid {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*.mainIMG img{
+	width: 70%;
+	height: 100%;
+}
+.firstSide img{
+	width: 30%;
+	height: 100%;
+}
+.secondSide img{
+	width: 30%;
+	height: 100%;
+
+}
+
+.thirdSide img{
+	width: 30%;
+	height: 100%;
+
+}
+*/
+
+
+#opener { 
+	/*outline: solid  1px red; */
+	width: 100%;
+	/*background-color: #000;*/
+}
+#opener .mainIMG {
+	width: 74.75%;
+	float: left;
+}
+#opener .Side {
+	width: 25.25%;
+	float: left;
+}
+
+
+
+/*---------------
+| Navigation
+---------------*/
+
+nav { float: left; width: 100%; min-height: 30%; background-color: #fff;}
+
+nav ul {
+	width: 100%;
+	margin-left: 17%;
+}
+
+nav li {
+	width: 280px;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-left: 50%;*/
+
+
+}
+
+nav img {
+	padding-top: 10px;
+	width: 50px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+nav { float: left; width: 100%; min-height: 30%;}
+nav li { text-align: center;}
+
+
+/*---------------
+| Footer
+---------------*/
+footer {
+	margin-top: 5%;
+	width: 80%;
+}
+
+.icons {
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.icons img {
+	padding: 20px 5px 5px 0px;
+}
+
+.copy {
+	float: right;
+	/*padding-top: 70px;*/
+	/*padding-left: 80%;*/
+	font-size: .7em;
+}
+
+
+
+/*---------------
+| Featured Products
+---------------*/
+
+#featured {
+	width: 80%;
+	margin-left: 8%;
+	padding-top: 20px;
+
+}
+.bar {
+	background-color: #000;
+	text-align: center;
+	width: 25%;
+	height: auto;
+	margin-left: 40%;
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+
+.bar h1 {
+	color: #fff;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1em;
+	width: 80%;
+}
+
+/*---------------
+| Col 3
+---------------*/
+
+.col-md-3 {
+	padding-left: 85px;
+	padding-top: 20px;
+	min-width: 25%;
+	height: auto;
+}
